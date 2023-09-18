@@ -1,0 +1,59 @@
+.container {
+}
+
+.editor {
+	display: flex;
+	gap: 20px;
+	height: 300px;
+	position: relative;
+}
+
+.button,
+.addButton {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	border: 1px solid var(--textColor);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input {
+	padding: 50px;
+	font-size: 54px;
+	border: none;
+	background-color: transparent;
+	color: var(--textColor);
+}
+.input:focus {
+	outline: none;
+}
+
+.input::placeholder {
+	color: gray;
+}
+.textArea {
+	width: 100%;
+}
+
+.add {
+	display: flex;
+	gap: 20px;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	left: 50px;
+}
+.publish {
+	position: absolute;
+	padding: 12px 20px;
+	top: 30px;
+	right: 20px;
+	border: none;
+	background-color: rgb(8, 153, 8);
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}

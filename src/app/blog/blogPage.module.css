@@ -1,0 +1,13 @@
+.title {
+	background: rgba(244, 109, 109, 0.818);
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.content {
+	display: flex;
+	gap: 50px;
+}
